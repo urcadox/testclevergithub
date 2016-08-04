@@ -7,7 +7,7 @@ function handleRequest(request, response) {
     body = Buffer.concat(body).toString();
     console.log(body);
   });
-  response.end('Hello.');
+  response.end('Hello again.');
 }
 
 var server = http.createServer(handleRequest);
